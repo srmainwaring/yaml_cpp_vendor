@@ -14,5 +14,6 @@ endif()
 
 set(yaml_cpp_vendor_LIBRARIES ${YAML_CPP_LIBRARIES})
 set(yaml_cpp_vendor_INCLUDE_DIRS ${YAML_CPP_INCLUDE_DIR})
+set(yaml_cpp_vendor_LIBRARY_DIRS ${YAML_CPP_LIBRARY_DIR})
 
 list(APPEND yaml_cpp_vendor_TARGETS yaml-cpp)
